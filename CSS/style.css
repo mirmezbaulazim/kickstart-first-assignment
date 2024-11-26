@@ -172,3 +172,42 @@ hr{
     border-radius: 50px;
     border: 1px  solid grey;
 }
+/* Responsive  */
+@media screen and (max-width:576px){
+    .nav-section{
+        display: block;
+        text-align: center;
+    }
+    .nav-logo{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .nav-ul{
+        padding-left: 0;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+    .banner-container {
+        padding: 0;
+    }
+    .banner{
+        display: grid;
+        margin: auto;
+        text-align: center;
+        height: 900px;
+    }
+    .banner-img {
+        height: 300px;
+        padding: 0;
+        margin-top: 20px;
+        
+    }
+    .cart-section {
+        display: grid;
+        grid-template-columns: repeat(1, 350px);
+    }
+    .btn-prymary {
+        font-size:15px ;
+        margin-bottom: 15px;
+    }
+}
